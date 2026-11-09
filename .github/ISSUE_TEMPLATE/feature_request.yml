@@ -1,0 +1,43 @@
+name: ✨ Propuesta de funcionalidad (Feature Request)
+description: Sugiere una nueva característica, mejora de interfaz o ampliación de glosario para herramientas MTTN.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nos encanta recibir ideas de creadores, editores y diseñadores de juegos de mesa. Cuéntanos qué necesitas.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Herramienta o Proyecto
+      description: Selecciona el proyecto al que aplica la propuesta.
+      options:
+        - MTTN AutoSubs Tool
+        - MTTN PaperCraft Studio
+        - Nuevo proyecto / Idea general
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: ¿Qué problema resuelve o qué necesidad cubre?
+      description: Explica el caso de uso práctico o la limitación actual que resolvería esta funcionalidad.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Descripción de la solución propuesta
+      description: Describe cómo te gustaría que funcionara la característica (flujo de usuario, interfaz o comandos).
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: ¿Has considerado otras soluciones o alternativas existentes?

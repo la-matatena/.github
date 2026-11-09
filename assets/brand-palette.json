@@ -1,0 +1,45 @@
+{
+  "name": "La Matatena Brand Palette",
+  "organization": "La Matatena",
+  "github": "https://github.com/la-matatena",
+  "website": "https://la-matatena.com",
+  "tokens": {
+    "primary": {
+      "mttn-purple": "#8367c7",
+      "mttn-purple-deep": "#6a4fb3",
+      "mttn-purple-deep-hover": "#583da0",
+      "mttn-purple-control": "#9f85e3",
+      "mttn-purple-tint": "#d5c7f7",
+      "mttn-purple-soft": "rgba(131, 103, 199, 0.18)"
+    },
+    "surfaces": {
+      "bg": "#110f17",
+      "topbar-bg": "#15121e",
+      "panel": "#171421",
+      "card": "#1d1929",
+      "surface-inset": "#13101b",
+      "surface-elevated": "#272138",
+      "border": "#342d4a",
+      "border-control": "#736599"
+    },
+    "text": {
+      "text": "#f3effb",
+      "muted": "#b2aad0"
+    },
+    "status": {
+      "ok": "#2ecc71",
+      "warn": "#f1c40f",
+      "danger": "#ff5c6c",
+      "info": "#7bb4ff"
+    },
+    "typography": {
+      "heading": "\"Montserrat\", -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Helvetica Neue\", Arial, sans-serif",
+      "body": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    },
+    "badges": {
+      "primaryColor": "8367c7",
+      "secondaryColor": "6a4fb3"
+    }
+  }
+}

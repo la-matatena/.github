@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Documentación y Estándares MTTN
+    url: https://github.com/la-matatena/.github/blob/main/CONVENTIONS.md
+    about: Consulta las normas de nomenclatura, paleta de colores y arquitectura de La Matatena.
+  - name: 🎲 Sitio oficial La Matatena
+    url: https://la-matatena.com
+    about: Conoce más sobre nuestros proyectos de juegos de mesa y software creativo.

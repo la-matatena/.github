@@ -1,0 +1,67 @@
+name: 🐛 Reporte de error (Bug Report)
+description: Notifica un comportamiento inesperado o fallo en alguna de las herramientas MTTN.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tomarte el tiempo de reportar este problema. Por favor proporciona la información necesaria para reproducirlo de forma local.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Herramienta o Proyecto
+      description: Selecciona a qué repositorio o componente corresponde el error.
+      options:
+        - MTTN AutoSubs Tool
+        - MTTN PaperCraft Studio
+        - General / Otro
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión del software
+      description: ¿Qué versión o tag de la herramienta estás utilizando? (ej. v1.2.0, v2.1.0 o commit hash).
+      placeholder: v1.2.0
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno y Sistema Operativo
+      description: Sistema operativo, CPU, GPU y versión de software anfitrión (ej. macOS Sonoma 14.5, DaVinci Resolve 20 Free, Intel Core i5 / Apple Silicon).
+      placeholder: macOS 14.5 · Intel Core i5 · DaVinci Resolve 20 Free
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: Explica de forma concisa qué sucedió y cuál era el comportamiento esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Pasos ordenados para reproducir el comportamiento.
+      placeholder: |
+        1. Abrir la herramienta en...
+        2. Seleccionar el modelo o plantilla...
+        3. Hacer clic en...
+        4. Ocurre el error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Salida de terminal o registros (Logs)
+      description: Pega aquí los mensajes de error o registros relevantes.
+      render: shell
