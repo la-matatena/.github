@@ -120,14 +120,10 @@ Todo `README.md` principal debe contar con las siguientes secciones:
 1. **Título H1**: `# MTTN <Nombre> <Sufijo>`
 2. **Badges**: bloque de badges con colores de marca (`8367c7` / `6a4fb3`).
 3. **Párrafo de introducción**: Nombre en negrita, mención a **[La Matatena](https://la-matatena.com)** y cuenta `@la-matatena`, resumen de propósito y hardware objetivo.
-4. **Callout de convención de marca**:
-   ```markdown
-   > **La Matatena Open Projects Convention:** All open tools under [`github.com/la-matatena`](https://github.com/la-matatena) follow the **`MTTN` + `TwoWordNameInPascalCase` + `[Suffix]`** naming standard (e.g., **MTTN AutoSubs Tool**, **MTTN PaperCraft Studio**) and La Matatena's `#8367c7` / `#6a4fb3` brand palette.
-   ```
-5. **Capturas de pantalla o diagramas** (`docs/images/`).
-6. **Tabla de entregables / componentes incluidos**.
-7. **Guía de instalación rápida paso a paso**.
-8. **Licencia y créditos**: Licencia MIT con enlace al archivo `LICENSE`.
+4. **Capturas de pantalla o diagramas** (`docs/images/`).
+5. **Tabla de entregables / componentes incluidos**.
+6. **Guía de instalación rápida paso a paso**.
+7. **Licencia y créditos**: Licencia MIT con enlace al archivo `LICENSE`.
 
 ---
 
