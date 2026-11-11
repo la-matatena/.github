@@ -26,9 +26,9 @@ Todos los proyectos abiertos de La Matatena siguen una estructura unificada en n
 ### 1.3 Nombres de artefactos, binarios y plugins
 - **Paquetes comprimidos y releases**: `MTTN_<Nombre>_<version>_<plataforma>.zip` o `mttn-<nombre>-v<version>.zip`.
 - **Plugins DaVinci Resolve / Fusion**:
-  - Plantillas de títulos: prefijo `AutoSubs_ES_` o `MTTN_` (ej. `MTTN_PaperCraft_Torn_Border.setting`).
+  - Plantillas y paquetes `.drfx`: categoría `MTTN <Nombre>` y archivo `MTTN_<Nombre>.drfx` (ej. `MTTN_PaperCraft_Studio.drfx`, plantillas `AutoSubs_ES_*.setting`).
   - Scripts Lua: `1 - MTTN <Accion>.lua` (ej. `1 - MTTN AutoSubs - Exportar Audio.lua`).
-  - Plugins OpenFX: `MTTN PaperCraft Studio.ofx.bundle`.
+  - Plugins OpenFX: categoría `MTTN <Nombre>` en Resolve (ej. `PaperCraftStudioPro.ofx.bundle` bajo `MTTN PaperCraft Studio`).
 - **Librerías Python**: paquetes en `snake_case` o prefijados con `mttn_`.
 
 ### 1.4 Versionado y etiquetas (Tags)
@@ -88,7 +88,7 @@ Cada repositorio debe incluir en la cabecera de su `README.md` un bloque de insi
 [![CI & Release](https://github.com/la-matatena/<repo>/actions/workflows/ci-release.yml/badge.svg)](https://github.com/la-matatena/<repo>/actions/workflows/ci-release.yml)
 [![Latest Release](https://img.shields.io/github/v/release/la-matatena/<repo>?color=8367c7&label=release)](https://github.com/la-matatena/<repo>/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8367c7.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-6a4fb3.svg)](docs/installation.md)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-6a4fb3.svg)](docs/user_guide.md)
 [![Brand: La Matatena](https://img.shields.io/badge/La%20Matatena-MTTN-8367c7.svg)](https://github.com/la-matatena)
 ```
 
@@ -102,12 +102,16 @@ Un repositorio bajo `@la-matatena` debe seguir esta organización mínima de arc
 mttn-<nombre>/
 ├── .github/
 │   └── workflows/
-│       └── ci-release.yml      # Integración continua, tests y empaquetado
+│       ├── ci-release.yml      # Integración continua, tests y empaquetado
+│       └── pages.yml           # Despliegue opcional de landing page (GitHub Pages)
 ├── docs/                       # Documentación técnica, guías de usuario y arquitectura
 │   └── images/                 # Capturas oficiales de interfaz en 1440x940
+├── site/                       # Landing page bilingüe opcional (ES en raíz, EN en site/en/)
 ├── tests/ (o *_test.py/.cc)    # Batería de pruebas unitarias automatizadas
+├── AGENTS.md                   # Guía rápida local para asistentes de código con IA
 ├── LICENSE                     # Licencia MIT canónica
-├── README.md                   # Descripción general, capturas, tablas de entregables y guía rápida
+├── README.md                   # Documentación principal en español
+├── README.en.md                # Versión en inglés del README (opcional, con selector de idioma)
 └── <código fuente del proyecto>
 ```
 

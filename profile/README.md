@@ -31,8 +31,8 @@
 
 | Proyecto | Descripción | Estado | Plataformas |
 | :--- | :--- | :--- | :--- |
-| [**MTTN AutoSubs Tool**](https://github.com/la-matatena/mttn-autosubs-tool) | Estudio local de transcripción y subtitulado IA en español con Whisper (`Large-v3-Turbo`), puente para DaVinci Resolve 20/21, diccionario lúdico BGG y tipografía animada *Anitype*. | ![v1.2.0](https://img.shields.io/github/v/release/la-matatena/mttn-autosubs-tool?color=8367c7&label=release) | macOS (Intel / Apple Silicon) |
-| [**MTTN PaperCraft Studio**](https://github.com/la-matatena/mttn-papercraft-studio) | Suite OpenFX 1.4 en C++17 y paquete `.drfx` para DaVinci Resolve: recortes de cartulina orgánica, transiciones de pliegue 3D y biblioteca de efectos Foley en estéreo 24-bit. | ![v2.1.0](https://img.shields.io/github/v/release/la-matatena/mttn-papercraft-studio?color=8367c7&label=release) | macOS (Universal) & Linux x86_64 |
+| [**MTTN AutoSubs Tool**](https://github.com/la-matatena/mttn-autosubs-tool)<br>[Sitio web](https://la-matatena.github.io/mttn-autosubs-tool/) | Estudio local de subtitulado con IA en español (Whisper `Large-v3-Turbo`): app de escritorio y CLI, puente para DaVinci Resolve 20, diccionario lúdico BGG, tipografía animada *Anitype* y exportación a SRT, VTT, ASS, FCPXML o MP4 subtitulado. | [![Última versión de MTTN AutoSubs Tool](https://img.shields.io/github/v/release/la-matatena/mttn-autosubs-tool?color=8367c7&label=release)](https://github.com/la-matatena/mttn-autosubs-tool/releases/latest) | macOS (Intel / Apple Silicon) |
+| [**MTTN PaperCraft Studio**](https://github.com/la-matatena/mttn-papercraft-studio)<br>[Sitio web](https://la-matatena.github.io/mttn-papercraft-studio/) | Suite OpenFX 1.4 en C++17 y plantillas `.drfx` para la página Edit de DaVinci Resolve 20 y 21: efecto **Paper Cutout FX** con recortes stop-motion y bordes de cartulina rasgada, transición **Paper Fold & Unfold** de pliegues reales y biblioteca de sonidos Foley de papel en estéreo de 24 bits. | [![Última versión de MTTN PaperCraft Studio](https://img.shields.io/github/v/release/la-matatena/mttn-papercraft-studio?color=8367c7&label=release)](https://github.com/la-matatena/mttn-papercraft-studio/releases/latest) | macOS (Universal) & Linux x86_64 |
 
 ---
 
@@ -57,6 +57,7 @@ Agradecemos reportes de errores, sugerencias de glosario y contribuciones de có
 - [Código de conducta (CODE_OF_CONDUCT.md)](https://github.com/la-matatena/.github/blob/main/CODE_OF_CONDUCT.md)
 - [Política de seguridad (SECURITY.md)](https://github.com/la-matatena/.github/blob/main/SECURITY.md)
 - [Canales de soporte (SUPPORT.md)](https://github.com/la-matatena/.github/blob/main/SUPPORT.md)
+- [Guía para asistentes de código con IA (AGENTS.md)](https://github.com/la-matatena/.github/blob/main/AGENTS.md)
 
 ---
 
